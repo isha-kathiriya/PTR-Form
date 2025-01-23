@@ -1,0 +1,30 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> PCO-Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h3>PTR-CD+Overhead Calculator</h3>
+    <form id="calculationForm">
+      <label for="ptr">PTR (Principal Amount):</label>
+      <input type="number" id="ptr" placeholder="Enter PTR" />
+
+      <label for="cd">CD (Cash Discount):</label>
+      <input type="number" id="cd" placeholder="Enter CD %" />
+
+      <label for="overhead">Overhead:</label>
+      <input type="number" id="overhead" placeholder="Enter Overhead %" />
+
+      <button type="submit">Submit</button>
+      <p id="errorMessage" class="error-message "></p>
+      <p id="result" class="result"></p>
+    </form>
+  </div>
+  <script src="first.js"></script>
+</body>
+</html> 
